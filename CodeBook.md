@@ -2,6 +2,7 @@
 
 
 **subjectnumber**(integer): An identifier of the subject who carried out the experiment.
+
 Range: 1 to 30
 
 **activitynumber**(integer): An identifier of the activity being performed by the subject:
@@ -11,13 +12,16 @@ Range: 1 to 30
    4. SITTING
    5. STANDING
    6. LAYING
+
 Range: 1 to 6
 
 **activityname**(character): Activity label for **activitinumber**. 
+
 Range: One of ("WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING")
 
 **[VariableName].average**(number, 15 decimal places): Average of each variable for each activity and each subject. 
 where **[VariableName]** is the variable name from the original data set. 
+
 Range: -1 to 1
 
 
