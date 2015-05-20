@@ -11,4 +11,12 @@
    5. STANDING
    6. LAYING
 
+**activityname**: Activity label for **activitinumber**. 
+
+**[VariableName].average**: Average of each variable for each activity and each subject. 
+where **[VariableName]** is the variable name from the original data set. For details on the original data set and its variables, please see [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+
+More details on the origial data set:
+[http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones ](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+
 
