@@ -38,7 +38,7 @@ testData <- subjectTest
 testData <- cbind(testData, yTest)
 testData <- cbind(testData, xTest) 
 
-#Combine columns of test data
+#Combine columns of train data
 trainData <- subjectTrain
 trainData <- cbind(trainData, yTrain)
 trainData <- cbind(trainData, xTrain) 
@@ -61,7 +61,7 @@ relevantData <- allData[,names(allData[grep(paste(toMatch,collapse="|"), names(a
 # Find the average of all variables grouped by subjectnumber and activityname
 allMeans <- relevantData %>% group_by(subjectnumber,activityname) %>% summarise_each(funs(mean))
 
-#Append ".average" to all columns except the first three
+#Append ".average" to all column names except the first three
 nam <- names(allMeans)
 names(allMeans)<-ifelse(!(nam %in% c("activitynumber", "activityname", "subjectnumber")), str_c(nam, '.average'),  nam)
 
