@@ -5,7 +5,7 @@ initial.dir<-getwd()
 library(dplyr)
 library(stringr)
 
-#Load the feature names
+#Load feature names
 featureNames <- read.table("./features.txt", header=FALSE, sep="", stringsAsFactor=FALSE)
 
 # load the test dataset and rename columns
