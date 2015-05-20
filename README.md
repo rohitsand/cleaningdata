@@ -4,6 +4,7 @@ Repo for Getting and Cleaning Data Project
 *****************************************************************************************************************************
 
 Original assignment/project:
+----------------------------
 
 You should create one R script called run_analysis.R that does the following. 
 
@@ -20,6 +21,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 *****************************************************************************************************************************
 
 Instructions to run the script in R:
+----------------------------
 
 Script name: run_analysis.R
 
@@ -33,6 +35,7 @@ Assumption: Script assumes that you've already installed these R packages - dply
 *****************************************************************************************************************************
 
 Output
+------
 
 Once you run the run_analysis.R script file in R, it will generate an output file with name tidydata.txt in your current working directory. This file contains the data set described in the step 5 of the project assignment below.
 
@@ -47,6 +50,8 @@ You should create one R script called run_analysis.R that does the following.
 Please read the CodeBook.md file in this repo for details on the variables in the output file.
 
 *****************************************************************************************************************************
+References
+----------
 
 For more details on the original data set, please visit: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
