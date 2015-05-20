@@ -16,7 +16,7 @@ You should create one R script called run_analysis.R that does the following.
 
 Here are the data for the project: 
 
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 *****************************************************************************************************************************
 
@@ -24,6 +24,8 @@ Instructions to run the script in R:
 ----------------------------
 
 Script name: run_analysis.R
+
+Repo: [https://github.com/rohitsand/cleaningdata](https://github.com/rohitsand/cleaningdata)
 
 The script assumes that your current working directory is the main data folder (along side the test and training folders in the data set).
 
@@ -53,6 +55,6 @@ Please read the CodeBook.md file in this repo for details on the variables in th
 References
 ----------
 
-For more details on the original data set, please visit: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+For more details on the original data set, please visit: [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 *****************************************************************************************************************************
