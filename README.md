@@ -27,7 +27,7 @@ Script name: run_analysis.R
 
 Repo: [https://github.com/rohitsand/cleaningdata](https://github.com/rohitsand/cleaningdata)
 
-The script assumes that your current working directory is the main data folder (along side the test and training folders in the data set).
+The script assumes that your current working directory is the main data folder (where 'test' and 'train' folders in the original dataset are located).
 
 Assuming the run_analysis.R script is in your currect working directory
 on R console type: source("run_analysis.r")
